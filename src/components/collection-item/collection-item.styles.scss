@@ -6,6 +6,7 @@
     justify-content: center;
     margin: 0 7.5px 15px;
     overflow: hidden;
+    position: relative;
     
    
     &:hover {
@@ -19,6 +20,24 @@
         & .content {
             opacity: 0.9;
         }
+
+        .image {
+          opacity: 0.8;
+        }
+
+        .custom-button {
+          opacity: 0.85;
+          display: flex;
+        }
+    }
+
+    .custom-button {
+      width: 80%;
+      opacity: .7;
+      position:absolute;
+      top: 255px;
+      left: 2em;
+      display: none;
     }
 
     .background-image {
